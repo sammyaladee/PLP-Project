@@ -1,11 +1,8 @@
-# Simple Calculator
 
-# Get user input
 num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
 operation = input("Enter the operation (+, -, *, /): ")
 
-# Perform the calculation
 if operation == "+":
     result = num1 + num2
 elif operation == "-":
@@ -20,7 +17,6 @@ elif operation == "/":
 else:
     result = "Invalid operation!"
 
-# Display the result
 if isinstance(result, (int, float)):
     print(f"{num1} {operation} {num2} = {result}")
 else:
